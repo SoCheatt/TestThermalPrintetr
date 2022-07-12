@@ -8,6 +8,8 @@
 import UIKit
 
 class InvoiceBodyCell: UITableViewCell {
+    
+    static let identifier: String = "InvoiceBodyCell"
 
     override func awakeFromNib() {
         super.awakeFromNib()

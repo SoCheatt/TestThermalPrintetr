@@ -7,15 +7,43 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8D03845E7D041BA9FC801D9F /* Pods_ThermalPrinterTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9CEB8B3E9F2C82B89E76F0DD /* Pods_ThermalPrinterTest.framework */; };
 		DCE1A453287526F20044D056 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCE1A452287526F20044D056 /* AppDelegate.swift */; };
 		DCE1A455287526F20044D056 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCE1A454287526F20044D056 /* SceneDelegate.swift */; };
 		DCE1A457287526F20044D056 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCE1A456287526F20044D056 /* ViewController.swift */; };
 		DCE1A45A287526F20044D056 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DCE1A458287526F20044D056 /* Main.storyboard */; };
 		DCE1A45C287526F40044D056 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DCE1A45B287526F40044D056 /* Assets.xcassets */; };
 		DCE1A45F287526F40044D056 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DCE1A45D287526F40044D056 /* LaunchScreen.storyboard */; };
+		DCE1A467287532100044D056 /* TestPrintViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCE1A466287532100044D056 /* TestPrintViewController.swift */; };
+		DCE1A484287543D10044D056 /* DummyPrinter.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCE1A46E287543D10044D056 /* DummyPrinter.swift */; };
+		DCE1A485287543D10044D056 /* Todo.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCE1A470287543D10044D056 /* Todo.swift */; };
+		DCE1A486287543D10044D056 /* BluetoothPrinterSelectTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCE1A472287543D10044D056 /* BluetoothPrinterSelectTableViewController.swift */; };
+		DCE1A487287543D10044D056 /* BluetoothCentralManagerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCE1A473287543D10044D056 /* BluetoothCentralManagerDelegate.swift */; };
+		DCE1A488287543D10044D056 /* BluetoothPrinterManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCE1A474287543D10044D056 /* BluetoothPrinterManager.swift */; };
+		DCE1A489287543D10044D056 /* BluetoothPeripheralDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCE1A475287543D10044D056 /* BluetoothPeripheralDelegate.swift */; };
+		DCE1A48A287543D10044D056 /* PrinterError.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCE1A477287543D10044D056 /* PrinterError.swift */; };
+		DCE1A48B287543D10044D056 /* Printable.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCE1A478287543D10044D056 /* Printable.swift */; };
+		DCE1A48C287543D10044D056 /* Dividing.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCE1A47A287543D10044D056 /* Dividing.swift */; };
+		DCE1A48D287543D10044D056 /* ESC_POSCommand.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCE1A47B287543D10044D056 /* ESC_POSCommand.swift */; };
+		DCE1A48E287543D10044D056 /* Blank.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCE1A47C287543D10044D056 /* Blank.swift */; };
+		DCE1A48F287543D10044D056 /* TicketImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCE1A47D287543D10044D056 /* TicketImage.swift */; };
+		DCE1A490287543D10044D056 /* Block.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCE1A47E287543D10044D056 /* Block.swift */; };
+		DCE1A491287543D10044D056 /* Image.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCE1A47F287543D10044D056 /* Image.swift */; };
+		DCE1A492287543D10044D056 /* Ticket.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCE1A480287543D10044D056 /* Ticket.swift */; };
+		DCE1A493287543D10044D056 /* QRCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCE1A481287543D10044D056 /* QRCode.swift */; };
+		DCE1A494287543D10044D056 /* Text.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCE1A482287543D10044D056 /* Text.swift */; };
+		DCE1A497287546820044D056 /* PrintListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCE1A496287546820044D056 /* PrintListViewController.swift */; };
+		DCE1A49A2875499C0044D056 /* InvoiceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCE1A4992875499C0044D056 /* InvoiceView.swift */; };
+		DCE1A49C287549B10044D056 /* InvoiceView.xib in Resources */ = {isa = PBXBuildFile; fileRef = DCE1A49B287549B10044D056 /* InvoiceView.xib */; };
+		DCE1A4A628754A4E0044D056 /* InvoiceBodyCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCE1A4A428754A4E0044D056 /* InvoiceBodyCell.swift */; };
+		DCE1A4A728754A4E0044D056 /* InvoiceBodyCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DCE1A4A528754A4E0044D056 /* InvoiceBodyCell.xib */; };
+		DCE1A4AA28754AC70044D056 /* InvoiceHeaderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCE1A4A828754AC70044D056 /* InvoiceHeaderCell.swift */; };
+		DCE1A4AB28754AC70044D056 /* InvoiceHeaderCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DCE1A4A928754AC70044D056 /* InvoiceHeaderCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3F1085C4CAC7EBF06D731B0C /* Pods-ThermalPrinterTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ThermalPrinterTest.release.xcconfig"; path = "Target Support Files/Pods-ThermalPrinterTest/Pods-ThermalPrinterTest.release.xcconfig"; sourceTree = "<group>"; };
+		9CEB8B3E9F2C82B89E76F0DD /* Pods_ThermalPrinterTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ThermalPrinterTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DCE1A44F287526F20044D056 /* ThermalPrinterTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ThermalPrinterTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DCE1A452287526F20044D056 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DCE1A454287526F20044D056 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +52,32 @@
 		DCE1A45B287526F40044D056 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DCE1A45E287526F40044D056 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DCE1A460287526F40044D056 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DCE1A466287532100044D056 /* TestPrintViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestPrintViewController.swift; sourceTree = "<group>"; };
+		DCE1A46E287543D10044D056 /* DummyPrinter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DummyPrinter.swift; sourceTree = "<group>"; };
+		DCE1A470287543D10044D056 /* Todo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Todo.swift; sourceTree = "<group>"; };
+		DCE1A472287543D10044D056 /* BluetoothPrinterSelectTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BluetoothPrinterSelectTableViewController.swift; sourceTree = "<group>"; };
+		DCE1A473287543D10044D056 /* BluetoothCentralManagerDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BluetoothCentralManagerDelegate.swift; sourceTree = "<group>"; };
+		DCE1A474287543D10044D056 /* BluetoothPrinterManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BluetoothPrinterManager.swift; sourceTree = "<group>"; };
+		DCE1A475287543D10044D056 /* BluetoothPeripheralDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BluetoothPeripheralDelegate.swift; sourceTree = "<group>"; };
+		DCE1A477287543D10044D056 /* PrinterError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PrinterError.swift; sourceTree = "<group>"; };
+		DCE1A478287543D10044D056 /* Printable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Printable.swift; sourceTree = "<group>"; };
+		DCE1A47A287543D10044D056 /* Dividing.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Dividing.swift; sourceTree = "<group>"; };
+		DCE1A47B287543D10044D056 /* ESC_POSCommand.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ESC_POSCommand.swift; sourceTree = "<group>"; };
+		DCE1A47C287543D10044D056 /* Blank.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Blank.swift; sourceTree = "<group>"; };
+		DCE1A47D287543D10044D056 /* TicketImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TicketImage.swift; sourceTree = "<group>"; };
+		DCE1A47E287543D10044D056 /* Block.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Block.swift; sourceTree = "<group>"; };
+		DCE1A47F287543D10044D056 /* Image.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Image.swift; sourceTree = "<group>"; };
+		DCE1A480287543D10044D056 /* Ticket.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Ticket.swift; sourceTree = "<group>"; };
+		DCE1A481287543D10044D056 /* QRCode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QRCode.swift; sourceTree = "<group>"; };
+		DCE1A482287543D10044D056 /* Text.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Text.swift; sourceTree = "<group>"; };
+		DCE1A496287546820044D056 /* PrintListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrintListViewController.swift; sourceTree = "<group>"; };
+		DCE1A4992875499C0044D056 /* InvoiceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InvoiceView.swift; sourceTree = "<group>"; };
+		DCE1A49B287549B10044D056 /* InvoiceView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = InvoiceView.xib; sourceTree = "<group>"; };
+		DCE1A4A428754A4E0044D056 /* InvoiceBodyCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InvoiceBodyCell.swift; sourceTree = "<group>"; };
+		DCE1A4A528754A4E0044D056 /* InvoiceBodyCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = InvoiceBodyCell.xib; sourceTree = "<group>"; };
+		DCE1A4A828754AC70044D056 /* InvoiceHeaderCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InvoiceHeaderCell.swift; sourceTree = "<group>"; };
+		DCE1A4A928754AC70044D056 /* InvoiceHeaderCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = InvoiceHeaderCell.xib; sourceTree = "<group>"; };
+		F95C0D178905931DCFA4D75B /* Pods-ThermalPrinterTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ThermalPrinterTest.debug.xcconfig"; path = "Target Support Files/Pods-ThermalPrinterTest/Pods-ThermalPrinterTest.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +85,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8D03845E7D041BA9FC801D9F /* Pods_ThermalPrinterTest.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		469D11A384EED2376D8F3EC7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9CEB8B3E9F2C82B89E76F0DD /* Pods_ThermalPrinterTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		DCE1A446287526F20044D056 = {
 			isa = PBXGroup;
 			children = (
+				DCE1A46A287543D10044D056 /* Printer */,
 				DCE1A451287526F20044D056 /* ThermalPrinterTest */,
 				DCE1A450287526F20044D056 /* Products */,
+				E1A20EB351137860C1A602F5 /* Pods */,
+				469D11A384EED2376D8F3EC7 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,6 +122,7 @@
 		DCE1A451287526F20044D056 /* ThermalPrinterTest */ = {
 			isa = PBXGroup;
 			children = (
+				DCE1A498287549890044D056 /* View */,
 				DCE1A452287526F20044D056 /* AppDelegate.swift */,
 				DCE1A454287526F20044D056 /* SceneDelegate.swift */,
 				DCE1A456287526F20044D056 /* ViewController.swift */,
@@ -63,8 +130,112 @@
 				DCE1A45B287526F40044D056 /* Assets.xcassets */,
 				DCE1A45D287526F40044D056 /* LaunchScreen.storyboard */,
 				DCE1A460287526F40044D056 /* Info.plist */,
+				DCE1A466287532100044D056 /* TestPrintViewController.swift */,
+				DCE1A496287546820044D056 /* PrintListViewController.swift */,
 			);
 			path = ThermalPrinterTest;
+			sourceTree = "<group>";
+		};
+		DCE1A46A287543D10044D056 /* Printer */ = {
+			isa = PBXGroup;
+			children = (
+				DCE1A46C287543D10044D056 /* Hardware */,
+				DCE1A476287543D10044D056 /* Utils */,
+				DCE1A479287543D10044D056 /* Ticket */,
+			);
+			path = Printer;
+			sourceTree = "<group>";
+		};
+		DCE1A46C287543D10044D056 /* Hardware */ = {
+			isa = PBXGroup;
+			children = (
+				DCE1A46D287543D10044D056 /* Dummy */,
+				DCE1A46F287543D10044D056 /* Network */,
+				DCE1A471287543D10044D056 /* Bluetooth */,
+			);
+			path = Hardware;
+			sourceTree = "<group>";
+		};
+		DCE1A46D287543D10044D056 /* Dummy */ = {
+			isa = PBXGroup;
+			children = (
+				DCE1A46E287543D10044D056 /* DummyPrinter.swift */,
+			);
+			path = Dummy;
+			sourceTree = "<group>";
+		};
+		DCE1A46F287543D10044D056 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				DCE1A470287543D10044D056 /* Todo.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		DCE1A471287543D10044D056 /* Bluetooth */ = {
+			isa = PBXGroup;
+			children = (
+				DCE1A472287543D10044D056 /* BluetoothPrinterSelectTableViewController.swift */,
+				DCE1A473287543D10044D056 /* BluetoothCentralManagerDelegate.swift */,
+				DCE1A474287543D10044D056 /* BluetoothPrinterManager.swift */,
+				DCE1A475287543D10044D056 /* BluetoothPeripheralDelegate.swift */,
+			);
+			path = Bluetooth;
+			sourceTree = "<group>";
+		};
+		DCE1A476287543D10044D056 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				DCE1A477287543D10044D056 /* PrinterError.swift */,
+				DCE1A478287543D10044D056 /* Printable.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		DCE1A479287543D10044D056 /* Ticket */ = {
+			isa = PBXGroup;
+			children = (
+				DCE1A47A287543D10044D056 /* Dividing.swift */,
+				DCE1A47B287543D10044D056 /* ESC_POSCommand.swift */,
+				DCE1A47C287543D10044D056 /* Blank.swift */,
+				DCE1A47D287543D10044D056 /* TicketImage.swift */,
+				DCE1A47E287543D10044D056 /* Block.swift */,
+				DCE1A47F287543D10044D056 /* Image.swift */,
+				DCE1A480287543D10044D056 /* Ticket.swift */,
+				DCE1A481287543D10044D056 /* QRCode.swift */,
+				DCE1A482287543D10044D056 /* Text.swift */,
+			);
+			path = Ticket;
+			sourceTree = "<group>";
+		};
+		DCE1A498287549890044D056 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				DCE1A49D28754A190044D056 /* Cell */,
+				DCE1A4992875499C0044D056 /* InvoiceView.swift */,
+				DCE1A49B287549B10044D056 /* InvoiceView.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		DCE1A49D28754A190044D056 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				DCE1A4A428754A4E0044D056 /* InvoiceBodyCell.swift */,
+				DCE1A4A528754A4E0044D056 /* InvoiceBodyCell.xib */,
+				DCE1A4A828754AC70044D056 /* InvoiceHeaderCell.swift */,
+				DCE1A4A928754AC70044D056 /* InvoiceHeaderCell.xib */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		E1A20EB351137860C1A602F5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F95C0D178905931DCFA4D75B /* Pods-ThermalPrinterTest.debug.xcconfig */,
+				3F1085C4CAC7EBF06D731B0C /* Pods-ThermalPrinterTest.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,6 +245,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DCE1A463287526F40044D056 /* Build configuration list for PBXNativeTarget "ThermalPrinterTest" */;
 			buildPhases = (
+				BFFAC810ADC7F5C36664DC87 /* [CP] Check Pods Manifest.lock */,
 				DCE1A44B287526F20044D056 /* Sources */,
 				DCE1A44C287526F20044D056 /* Frameworks */,
 				DCE1A44D287526F20044D056 /* Resources */,
@@ -125,22 +297,72 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DCE1A49C287549B10044D056 /* InvoiceView.xib in Resources */,
 				DCE1A45F287526F40044D056 /* LaunchScreen.storyboard in Resources */,
 				DCE1A45C287526F40044D056 /* Assets.xcassets in Resources */,
+				DCE1A4A728754A4E0044D056 /* InvoiceBodyCell.xib in Resources */,
+				DCE1A4AB28754AC70044D056 /* InvoiceHeaderCell.xib in Resources */,
 				DCE1A45A287526F20044D056 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		BFFAC810ADC7F5C36664DC87 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ThermalPrinterTest-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		DCE1A44B287526F20044D056 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DCE1A48D287543D10044D056 /* ESC_POSCommand.swift in Sources */,
+				DCE1A491287543D10044D056 /* Image.swift in Sources */,
+				DCE1A467287532100044D056 /* TestPrintViewController.swift in Sources */,
+				DCE1A485287543D10044D056 /* Todo.swift in Sources */,
+				DCE1A49A2875499C0044D056 /* InvoiceView.swift in Sources */,
+				DCE1A48F287543D10044D056 /* TicketImage.swift in Sources */,
+				DCE1A4AA28754AC70044D056 /* InvoiceHeaderCell.swift in Sources */,
+				DCE1A48E287543D10044D056 /* Blank.swift in Sources */,
 				DCE1A457287526F20044D056 /* ViewController.swift in Sources */,
+				DCE1A492287543D10044D056 /* Ticket.swift in Sources */,
+				DCE1A48A287543D10044D056 /* PrinterError.swift in Sources */,
+				DCE1A493287543D10044D056 /* QRCode.swift in Sources */,
+				DCE1A494287543D10044D056 /* Text.swift in Sources */,
+				DCE1A48C287543D10044D056 /* Dividing.swift in Sources */,
+				DCE1A484287543D10044D056 /* DummyPrinter.swift in Sources */,
 				DCE1A453287526F20044D056 /* AppDelegate.swift in Sources */,
+				DCE1A4A628754A4E0044D056 /* InvoiceBodyCell.swift in Sources */,
+				DCE1A490287543D10044D056 /* Block.swift in Sources */,
+				DCE1A489287543D10044D056 /* BluetoothPeripheralDelegate.swift in Sources */,
+				DCE1A488287543D10044D056 /* BluetoothPrinterManager.swift in Sources */,
+				DCE1A487287543D10044D056 /* BluetoothCentralManagerDelegate.swift in Sources */,
+				DCE1A486287543D10044D056 /* BluetoothPrinterSelectTableViewController.swift in Sources */,
 				DCE1A455287526F20044D056 /* SceneDelegate.swift in Sources */,
+				DCE1A497287546820044D056 /* PrintListViewController.swift in Sources */,
+				DCE1A48B287543D10044D056 /* Printable.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,6 +504,7 @@
 		};
 		DCE1A464287526F40044D056 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F95C0D178905931DCFA4D75B /* Pods-ThermalPrinterTest.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -295,6 +518,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -310,6 +534,7 @@
 		};
 		DCE1A465287526F40044D056 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3F1085C4CAC7EBF06D731B0C /* Pods-ThermalPrinterTest.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -323,6 +548,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

@@ -8,6 +8,8 @@
 import UIKit
 
 class InvoiceHeaderCell: UITableViewCell {
+    
+    static let identifier: String = "InvoiceHeaderCell"
 
     override func awakeFromNib() {
         super.awakeFromNib()
